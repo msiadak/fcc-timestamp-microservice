@@ -1,6 +1,6 @@
 const express = require('express');
 
-const app = express()
+const app = express();
 
 app.get('/api/timestamp/:dateString?', (req, res) => {
   let date;
